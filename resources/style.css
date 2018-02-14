@@ -10,6 +10,15 @@ p {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: red;
+}
+
 html {
   background: url(../resources/images/dj-set.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -63,4 +72,26 @@ html {
   font-weight: bold;
   font-size: 16px;
   padding: 5px;
+}
+
+#footer-nav {
+  position: relative;
+  z-index: 10;
+  left: 0;
+  bottom: 0;
+  top: 475px;
+  font-size: 0;
+  padding: 15px 0 5px;
+  text-align: center;
+}
+
+#footer-nav li {
+  font-size: 12px;
+  display: inline;
+  border-right: white 1px solid;
+  padding: 0 5px;
+}
+
+#footer-nav li.last {
+  border: none;
 }
